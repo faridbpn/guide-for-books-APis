@@ -1,0 +1,129 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Background Image */
+.background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('your-anime-image.jpg'); /* Replace with actual image URL */
+    background-size: cover;
+    background-position: center;
+    z-index: -1;
+    filter: blur(3px);
+    opacity: 0.6;
+}
+
+/* Dashboard Layout */
+.dashboard {
+    position: relative;
+    padding: 20px;
+    color: #fff;
+}
+
+/* Header Section */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.search-bar input {
+    padding: 10px;
+    border-radius: 25px;
+    border: none;
+    outline: none;
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+}
+
+.profile span {
+    margin-right: 10px;
+}
+
+.upgrade-btn {
+    padding: 8px 20px;
+    background-color: #ffcc00;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+/* Content Layout */
+.content {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Left Panel */
+.left-panel {
+    width: 40%;
+}
+
+.summary {
+    font-size: 24px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+.daily-summary h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.stats {
+    display: flex;
+    justify-content: space-between;
+}
+
+.stat {
+    text-align: center;
+}
+
+.stat span {
+    display: block;
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+/* Right Panel */
+.right-panel {
+    width: 50%;
+}
+
+.habit-tracker h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.tracker-info {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.performance {
+    display: flex;
+    justify-content: space-between;
+}
+
+.performance-info, .earnings {
+    text-align: center;
+}
+
+.performance-info span, .earnings span {
+    display: block;
+    font-size: 18px;
+    margin-bottom: 5px;
+}
